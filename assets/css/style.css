@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+input {
+    font-family: inter;
+}
+
+#header .container,
+#hero .container {
+    background: linear-gradient(311.76deg, #D4E7FE -15.24%, #FFFFFF 78.85%);
+}
+
+#header .menu-navigation a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+
+    /* identical to box height, or 100% */
+    letter-spacing: 0.01em;
+
+    color: #656464;
+}
+
+#header .menu-navigation a.active {
+    font-weight: 600;
+    color: #2B2B39;
+}
+
+#header .menu-action .search-box {
+    border-bottom: 1px solid #E5E5E5;
+    width: 105px;
+    padding-bottom: 18px;
+}
+
+#header .menu-action .search-box .img-box img {
+    min-width: 9px;
+}
+
+#header .menu-action .search-box input {
+    font-size: 12px;
+    padding: 0;
+    font-family: inter;
+
+}
+
+#header .menu-action .button-box {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+
+    /* identical to box height, or 117% */
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+#hero .contentT>button {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 12px;
+
+    /* identical to box height, or 100% */
+    text-align: center;
+
+    color: #217BF4;
+
+}
+
+#hero .contentT>h1 {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 66px;
+
+    /* or 118% */
+
+    color: #0A093D;
+
+}
+
+#hero .contentT>p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+
+    /* or 156% */
+
+    color: #656464;
+
+}
+
+#hero .contentT .btn-hero .btn-blue {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+
+    /* identical to box height, or 100% */
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+#hero .contentT .btn-hero .btn-white {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+
+    /* identical to box height, or 100% */
+    text-align: center;
+
+    color: #217BF4;
+}
+
+#hero .hero-image img {
+    min-width: 585.52px;
+    height: 501.47px;
+
+
+}
+
+#about-us .contentT1 a {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+
+    /* identical to box height, or 100% */
+
+    color: #217BF4;
+
+}
+
+#about-us .contentT1 h1 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+
+    /* or 133% */
+
+    color: #0A093D;
+}
+
+#about-us .contentT1 a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+
+    /* or 175% */
+
+    color: #656464;
+
+}
+
+#about-us .contentT1 ul li {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+
+    /* identical to box height, or 100% */
+
+    color: #171648;
+
+
+}
