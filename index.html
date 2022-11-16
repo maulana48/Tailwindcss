@@ -25,8 +25,8 @@
                 extend: {
                     colors: {
                         clifford: '#da373d',
-                    }
-                }
+                    },
+                },
             }
         }
     </script>
@@ -34,8 +34,8 @@
 </head>
 
 <body>
-    <section id="header">
-        <div class="container bg-cyan-400 flex justify-between items-center pt-[22px] pb-[18px] border-b-[1px]
+    <section id="header" class="fixed w-full z-50 bg-gradient-to-br from-white to-[#D4E7FE]">
+        <div class="container bg-gradient-to-br from-white to-[#D4E7FE] flex justify-between items-center pt-[22px] pb-[18px] border-b-[1px]
             border-solid border-[#217BF4]/10">
             <div class="menu-navigation flex gap-[72px] items-center">
                 <img src="./assets/img/logo.png" alt="">
@@ -55,7 +55,8 @@
                         <img src="./assets/img/MagnifyingGlass.png" class="place-self-center" alt="">
                     </div>
                     <form action="#">
-                        <input type="text" class="w-full bg-transparent" placeholder="Search here...">
+                        <input type="text" class="w-full bg-transparent focus:outline-none"
+                            placeholder="Search here...">
                     </form>
 
                 </div>
@@ -65,8 +66,9 @@
             </div>
         </div>
     </section>
-    <section id="hero">
-        <div class="container flex justify-between items-center pt-[72px] gap-[69px] mb-24">
+    <section id="hero" class=" bg-gradient-to-br from-white to-[#D4E7FE]">
+        <div
+            class="container bg-gradient-to-br from-white to-[#D4E7FE] flex justify-between items-center pt-[172px] pb-[82.53px] gap-[69px] mb-24">
             <div class="contentT">
                 <button class="py-3 px-[30px] mb-5 rounded-lg bg-[#217BF4]/10">Netbook community</button>
                 <h1 class="mb-[18px]">Your Solutions For Community!</h1>
@@ -74,31 +76,326 @@
                     friends & family.</p>
                 <div class="btn-hero flex gap-[18px]">
                     <button class="btn-blue bg-[#217BF4] py-6 px-[42px] rounded-[14px]">About More</button>
-                    <button class="btn-white bg-white py-6 px-[42px] rounded-[14px]">Invite Friend</button>
+                    <button
+                        class="btn-white bg-transparent border-[#217BF4] border-[1px] py-6 px-[42px] rounded-[14px]">Invite
+                        Friend</button>
                 </div>
             </div>
             <div class="hero-image">
-                <img src="./assets/img/Iamge.png" class="object-cover" alt="">
+                <img src="./assets/img/Iamge.png" class="object-cover animate-spin hover:animate-none" alt="">
             </div>
         </div>
     </section>
     <section id="about-us">
-        <div class="container justify-between flex py-[34px] items-center gap-52">
-            <div class="contentT1">
+        <div class="container flex py-[34px] items-center gap-[200px] mb-[21px]">
+            <div class="contentT1 w-[406px]">
                 <a href="#" class="mb-[10px]">Whats Netboks?</a>
                 <h1 class="mb-4">Why Join to Netbook Social Network?</h1>
                 <p class="mb-9">Recent surveys have indicated that small businesses recognise the need they have to
                     connect with consumer.</p>
                 <ul class="flex flex-col gap-4">
-                    <li class="before:content-['url('/img/Ellipse 11.png')']">Groups</li>
-                    <li class="before:content-['url('/img/Ellipse 11.png')']">Messages</li>
-                    <li class="before:content-['url('/img/Ellipse 11.png')']">Share</li>
+                    <li class="flex items-center gap-3">Groups</li>
+                    <li class="flex items-center gap-3">Messages</li>
+                    <li class="flex items-center gap-3">Share</li>
                 </ul>
             </div>
-            <div class="about-image flex flex-col flex-wrap">
+            <div class="about-img flex flex-col flex-wrap gap-8  h-[508px] justify-center">
                 <img src="./assets/img/image.png" class="" alt="">
                 <img src="./assets/img/image(1).png" class="" alt="">
                 <img src="./assets/img/image(2).png" class="" alt="">
+            </div>
+        </div>
+    </section>
+    <section id="achievments">
+        <div class="container flex py-[84px] gap-[93px] items-center mb-[55px]">
+            <div class="cards flex gap-6">
+                <div class="card hover:shadow-2xl w-[336px] pt-[42px] pr-[18px] pb-10 pl-11">
+                    <div class="cardh flex gap-[10px] items-center mb-8">
+                        <img src="./assets/img/Vector.svg" alt="">
+                        <h4 class="">4.8 Rating</h4>
+                    </div>
+                    <div class="cardh1 flex gap-4 mb-[37px] items-center">
+                        <div class="people w-[60px] h-6">
+                            <img src="./assets/img/people.png" alt="" class="">
+                        </div>
+                        <h5 class=""><span>+836k</span> Members</h5>
+                    </div>
+                    <p class="mb-10">More than 2 billion we people over countries use socibooks we to stay in touch with
+                        friends.</p>
+                    <div class="href flex gap-2">
+                        <a href="#" class="">Join Our Community</a>
+                        <img src="./assets/img/ArrowRight.svg" alt="">
+                    </div>
+                </div>
+                <div class="card hover:shadow-2xl w-[336px] pt-[42px] pr-[18px] pb-10 pl-11">
+                    <div class="cardh flex gap-[10px] items-center mb-[35px]">
+                        <img src="./assets/img/Trophy.png" alt="">
+                        <h4>Awwwards</h4>
+                    </div>
+                    <div class="cardh1 flex gap-4 mb-[37px] items-center">
+                        <div class="people w-6 h-6">
+                            <img src="./assets/img/Ellipse 17.png" class="object-none" alt="">
+                        </div>
+                        <h5>Best of <span>2021</span> on Github</h5>
+                    </div>
+                    <p class="mb-10">More than 2 billion we people over countries use socibooks we to stay in touch with
+                        friends.</p>
+                    <div class="href flex gap-2">
+                        <a href="" class="disabled">Go To Awards</a>
+                        <img src="./assets/img/ArrowRight(1).svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="contentT2  w-[381px] text-left">
+                <a href="#" class="mb-[10px]">Our Achievement</a>
+                <h1 class="mb-[18px]">We are Connecting You The Digital Life.</h1>
+                <p class="mb-[38px]">The scope the Social Media becomes crucial Is helps the business to directly engage
+                    with their needs
+                    and wants.</p>
+                <div class="href">
+                    <button class="py-[21px] px-[38px] bg-[#217BF4] rounded-[14px] text-white flex gap-5">Discover me
+                        <img src="./assets/img/ArrowRight(2).png" alt=""></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="main">
+        <div class="container flex flex-col justify-center items-center pt-[60px] pb-20 mb-[46px]">
+            <div class="box-title w-[441px] text-center mb-16">
+                <a href="#" class="mb-[9px]">Our Community</a>
+                <h1 class="mb-[19px]">Community Main Feature</h1>
+                <p>The wise man therefore always holds in these matters to this principle of selection.</p>
+            </div>
+            <div class="cards flex justify-center flex-wrap gap-11">
+                <div class="card flex bg-white">
+                    <img src="./assets/img/card-item/Icon(6).png" alt="">
+                    <div class="card-item">
+                        <h3>Members, Friends</h3>
+                        <p>Members, Friends Connection ( like followers ), Private Message</p>
+                    </div>
+                </div>
+                <div class="card flex bg-white">
+                    <img src="./assets/img/card-item/Icon(1)(1).png" alt="">
+                    <div class="card-item">
+                        <h3>Groups</h3>
+                        <p>Your users can create groups to let other users to join and talk</p>
+                    </div>
+                </div>
+                <div class="card flex bg-white">
+                    <img src="./assets/img/card-item/Icon(2)(1).png" alt="">
+                    <div class="card-item">
+                        <h3>Forum</h3>
+                        <p>Forum is ready by BBPress. Your users can make topics and talk.</p>
+                    </div>
+                </div>
+                <div class="card flex bg-white">
+                    <img src="./assets/img/card-item/Icon(3)(1).png" alt="">
+                    <div class="card-item">
+                        <h3>Custom Module</h3>
+                        <p>You can create Members, Groups Module. We already created 3 modules. It's by drag & drop live
+                            builder.</p>
+                    </div>
+                </div>
+                <div class="card flex bg-white">
+                    <img src="./assets/img/card-item/Icon(4)(1).png" alt="">
+                    <div class="card-item">
+                        <h3>List Builder</h3>
+                        <p>Members, Groups list can be modified by drag & drop live builder.</p>
+                    </div>
+                </div>
+                <div class="card flex bg-white">
+                    <img src="./assets/img/card-item/Icon(5)(1).png" alt="">
+                    <div class="card-item">
+                        <h3>List Scroll Effect</h3>
+                        <p>8 different scroll effects are ready.
+                            You can always change by your tastes.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="members">
+        <div class="container flex justify-center items-center flex-col pt-[84px] mb-[46px]">
+            <div class="box-title w-[454px] text-center mb-16">
+                <a href="#" class="mb-[10px]">Valuable Team</a>
+                <h1 class="mb-[18px]">Our Active Members</h1>
+                <p>when an unknown printer took a galley of type and meeting fari scrambled it.</p>
+            </div>
+            <div class="filters flex bg-[#217BF4]/[0.06] items-center mb-11">
+                <p class="ml-[58px] mr-[98px]">Newst</p>
+                <p class="mr-[42px]">Popular</p>
+                <button class="button bg-[#217BF4] text-white py-5 px-[50px] m-2 rounded-[14px]">Active</button>
+            </div>
+            <div class="cards flex">
+                <div class="card py-[30px] px-[52px]">
+                    <img src="./assets/img/Group 1000000833(1).png" alt="">
+                    <h3 class="mb-[29px]">Fahim Rahman</h3>
+                    <p class="mb-[14px]">@rahman</p>
+                </div>
+                <div class="card py-[30px] px-[52px]">
+                    <img src="./assets/img/Group 1000000834(1).png" alt="">
+                    <h3 class="mb-[29px]">Kazi Rahman</h3>
+                    <p class="mb-[14px]">@Rahman</p>
+                </div>
+                <div class="card py-[30px] px-[52px]">
+                    <img src="./assets/img/Group 1000000835(1).png" alt="">
+                    <h3 class="mb-[29px]">Masterero Ali</h3>
+                    <p class="mb-[14px]">@Master</p>
+                </div>
+                <div class="card py-[30px] px-[52px]">
+                    <img src="./assets/img/Group 1000000836(1).png" alt="">
+                    <h3 class="mb-[29px]">Alia Karon</h3>
+                    <p class="mb-[14px]">@Alia</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="app" class=" bg-[#E5F0FD]">
+        <div class="container flex justify-center items-center gap-[354px] h-[560px] overflow-hidden mb-24">
+            <div class="content text-left w-[351px]">
+                <a class="mb-[10px]" href="#">Get Our Aplication</a>
+                <h1 class="mb-[18px]">You Can Easily Find This App…!</h1>
+                <p class="mb-[36px]">I say chap that’s suing lavatory chip shop gosh off his
+                    smashing
+                    boot are you
+                    taking the piss posh
+                    loo brilliant.</p>
+                <div class="app-button flex gap-5">
+                    <button class="btn-app"><img src="./assets/img/image 288(1).png" alt=""></button>
+                    <button class="btn-play"><img src="./assets/img/image 289(1).png" alt=""></button>
+                </div>
+            </div>
+            <img src="./assets/img/mobile muckup(1)(1).png" alt="" class="relative top-[134px]">
+        </div>
+    </section>
+    <section id="news">
+        <div class="container flex flex-col justify-center items-center py-[34px]">
+            <div class="box-title text-center">
+                <a href="" class="mb-[10px]">Get Our Aplication</a>
+                <h1 class="mb-20">Latest News</h1>
+            </div>
+            <div class="cards flex gap-[75px]">
+                <div class="card flex flex-col justify-center">
+                    <img src="./assets/img/news card/Image.png" alt="" class="mb-[25px]">
+                    <div class="card-item flex items-baseline gap-[14px]">
+                        <img src="./assets/img/news card/Line 3.png" alt="" class="max-w-[39px] max-h-[2px]">
+                        <div class="card-text">
+                            <h4 class="mb-6">It Does Not Matter Hows Slowly go as Long</h4>
+                            <div class="href disabled flex gap-2 items-center">
+                                <a>Continue Reading</a>
+                                <img src="./assets/img/ArrowRight(3).svg" alt="">
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="card flex flex-col justify-center">
+                    <img src="./assets/img/news card/Image(1).png" alt="" class="mb-[25px]">
+                    <div class="card-item flex items-baseline gap-[14px]">
+                        <img src="./assets/img/news card/Line 3.png" alt="" class="max-w-[39px] max-h-[2px]">
+                        <div class="card-text">
+                            <h4 class="mb-6">Netbook Network Added New Photo Filter</h4>
+                            <div class="href enabled flex gap-2 items-center">
+                                <a>Continue Reading</a>
+                                <img src="./assets/img/ArrowRight(3).svg" alt="">
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="card flex flex-col justify-center">
+                    <img src="./assets/img/news card/Image(2).png" alt="" class="mb-[25px]">
+                    <div class="card-item flex items-baseline gap-[14px]">
+                        <img src="./assets/img/news card/Line 3.png" alt="" class="max-w-[39px] max-h-[2px]">
+                        <div class="card-text">
+                            <h4 class="mb-6">We Optimised Netbooks Better Navigation</h4>
+                            <div class="href disabled flex gap-2 items-center">
+                                <a>Continue Reading</a>
+                                <img src="./assets/img/ArrowRight(3).svg" alt="">
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="footer" class=" bg-[#2B2B39]">
+        <div class="container pt-[74px] pb-[85px] flex gap-[163px]">
+            <div class="link flex justify-between w-[668px] pb-[22px]">
+                <div class="row">
+                    <ul class="list-none flex flex-col gap-[22px]">
+                        <li class="li-header">Home</li>
+                        <li>Home</li>
+                        <li>Community</li>
+                        <li>Events</li>
+                        <li>Contacs</li>
+                    </ul>
+                </div>
+                <div class="row">
+                    <ul class="list-none flex flex-col gap-[22px]">
+                        <li class="li-header">Resources</li>
+                        <li>Blog</li>
+                        <li>News</li>
+                        <li>Guides</li>
+                        <li>Help-center</li>
+                    </ul>
+                </div>
+                <div class="row">
+                    <ul class="list-none flex flex-col gap-[22px]">
+                        <li class="li-header">Community</li>
+                        <li>NewFeed</li>
+                        <li>Profile</li>
+                        <li>Friends</li>
+                        <li>Forums</li>
+                    </ul>
+                </div>
+                <div class="row">
+                    <ul class="list-none flex flex-col gap-[22px]">
+                        <li class="li-header">Main Links</li>
+                        <li>Members</li>
+                        <li>Activity</li>
+                        <li>Groups</li>
+                        <li>Private Groups</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="contentT3">
+                <h3 class="mb-[18px] w-[180px]">Subscribe Cirkle Newsletter</h3>
+                <p class="mb-8 w-[300px]">Subscribe to be the first one to know about updates. Enter your email</p>
+                <form action="#!" class="border-white border-[1px] border-solid rounded-xl flex">
+                    <input type="text" class="bg-transparent rounded-xl leading-[48px]" placeholder="Email address">
+                    <button class="py-4 px-6 bg-white rounded-xl">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="wrapper bg-[#20202D]">
+            <div class="container flex justify-between items-center py-[30px]">
+                <div class="brand">
+                    <p>Besnik Creative Agency.</p>
+                </div>
+                <div class="brand flex justify-center items-center gap-[6px]">
+                    <img src="./assets/img/footer-item/Group.png" alt="">
+                    <h1>Netbook</h1>
+                </div>
+                <div class="brand">
+                    <ul class="flex gap-2">
+                        <li class="bg-white rounded-full p-[7px]"><img src="./assets/img/footer-item/Frame.png" alt="">
+                        </li>
+                        <li class="bg-white rounded-full p-[7px]"><img src="./assets/img/footer-item/Frame(1).png"
+                                alt="">
+                        </li>
+                        <li class="bg-white rounded-full p-[7px]"><img src="./assets/img/footer-item/Frame(2).png"
+                                alt="">
+                        </li>
+                        <li class="bg-white rounded-full p-[7px]"><img src="./assets/img/footer-item/Linkedin.png"
+                                alt="">
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </section>

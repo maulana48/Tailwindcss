@@ -1,12 +1,60 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 input {
-    font-family: inter;
+    font-family: inter !important;
+}
+
+button {
+    font-family: 'Inter' !important;
+    font-style: normal !important;
+}
+
+.box-title {
+    width: 515px;
+}
+
+.box-title h1,
+.box-title h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 66px;
+    color: #0A093D;
+}
+
+.box-title h2 {
+    font-weight: 600;
+    font-size: 30px;
+}
+
+p {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 28px;
+    color: #656464;
+}
+
+span {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    color: #217BF4;
+}
+
+.disabled {
+    color: #656464 !important;
+}
+
+.enabled {
+    color: #217BF4 !important;
 }
 
 #header .container,
 #hero .container {
-    background: linear-gradient(311.76deg, #D4E7FE -15.24%, #FFFFFF 78.85%);
+    /* background: linear-gradient(311.76deg, #D4E7FE -15.24%, #FFFFFF 78.85%); */
 }
 
 #header .menu-navigation a {
@@ -45,8 +93,6 @@ input {
 }
 
 #header .menu-action .button-box {
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 600;
     font-size: 12px;
     line-height: 14px;
@@ -143,7 +189,7 @@ input {
     color: #0A093D;
 }
 
-#about-us .contentT1 a {
+#about-us .contentT1 p {
     font-weight: 400;
     font-size: 16px;
     line-height: 28px;
@@ -163,5 +209,355 @@ input {
 
     color: #171648;
 
+
+}
+
+#about-us .contentT1 ul li::before {
+    content: url('../img/Group\ 1000000832.png');
+    padding: 5px;
+    line-height: 8px;
+
+}
+
+#achievments .cards .cardh h4 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+
+    /* identical to box height, or 100% */
+
+    color: #0A093D;
+
+}
+
+#achievments .cards .cardh1 h5 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+
+    /* identical to box height, or 112% */
+
+    color: #5D5B70;
+}
+
+#achievments .cards .cardh1 span {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+
+    /* identical to box height, or 112% */
+    letter-spacing: -0.02em;
+
+    color: #217BF4;
+}
+
+#achievments .cards .card p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+
+    /* or 162% */
+
+    color: #8C8C8C;
+
+}
+
+.card>div>a {
+    color: #217BF4;
+}
+
+#achievments .contentT2 a {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+
+    /* identical to box height, or 100% */
+
+    color: #217BF4;
+
+}
+
+#achievments .contentT2 h1 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+
+    /* or 133% */
+
+    color: #0A093D;
+}
+
+#achievments .contentT2 p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+
+    /* or 175% */
+
+    color: #656464;
+}
+
+#achievments .contentT2 button {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+
+    /* identical to box height, or 100% */
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+}
+
+#main {
+    background: linear-gradient(0deg, rgba(241, 246, 253, 0) 1.63%, #F1F6FD 20.5%, #F1F6FD 58.57%, #FFFFFF 100%);
+}
+
+.box-title a {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+
+    /* identical to box height, or 100% */
+    text-align: center;
+
+    color: #217BF4;
+
+}
+
+.box-title h1 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 36px;
+
+    /* identical to box height, or 100% */
+    text-align: center;
+
+    color: #0A093D;
+}
+
+.box-title p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+
+    /* or 175% */
+    text-align: center;
+
+    color: #656464;
+}
+
+#main .cards .card {
+    width: 522px;
+    height: 182px;
+    padding: 40px 65px 44px 40px;
+    gap: 36px;
+}
+
+#main .cards .card img {
+    max-height: 66px;
+}
+
+#main .cards .card .card-item h3 {
+    margin-bottom: 16px;
+
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 26px;
+
+    /* identical to box height, or 108% */
+
+    color: #2F2C4A;
+
+}
+
+#main .cards .card .card-item p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+
+    /* or 162% */
+
+    color: #656464;
+}
+
+#members .filter p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+
+    /* identical to box height, or 100% */
+    text-align: center;
+    letter-spacing: 0.01em;
+
+    color: #2F2C4A;
+}
+
+#members .container .cards {}
+
+#members .container .cards h3 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 26px;
+
+    /* identical to box height, or 108% */
+    text-align: center;
+
+    color: #2F2C4A;
+}
+
+#members .container .cards p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+
+    /* identical to box height, or 100% */
+    text-align: center;
+
+    color: #656464;
+
+}
+
+#app .container .content {}
+
+#app .container .content a {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+
+    /* identical to box height, or 100% */
+
+    color: #217BF4;
+
+}
+
+#app .container .content h1 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 52px;
+
+    /* or 144% */
+
+    color: #0A093D;
+
+}
+
+#app .container .content p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+
+    /* or 162% */
+
+    color: #656464;
+
+}
+
+#news .cards .card-text h4 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+
+    /* or 160% */
+
+    color: #2F2C4A;
+
+}
+
+#news .cards .card-text .href a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+
+    /* identical to box height, or 100% */
+    text-align: center;
+
+}
+
+#footer .li-header {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+
+    /* identical to box height, or 100% */
+
+    color: #FFFFFF;
+}
+
+#footer li {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 46px;
+
+    /* or 288% */
+    letter-spacing: 0.0125em;
+
+    color: #E7E7E7;
+}
+
+#footer .contentT3 h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+
+    /* or 160% */
+
+    color: #FFFFFF;
+}
+
+#footer .contentT3 p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+
+    /* or 175% */
+
+    color: #E7E7E7;
+
+}
+
+#footer .contentT3 input {
+    font-weight: 400;
+    font-size: 14px;
+
+    /* identical to box height, or 86% */
+    text-align: center;
+    letter-spacing: 0.0125em;
+
+    color: #717179;
+
+}
+
+#footer .contentT3 button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+
+    /* identical to box height, or 100% */
+    text-align: center;
+
+    color: #2B2B39;
+
+
+}
+
+#footer .container .brand:first-child p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+
+    /* identical to box height, or 100% */
+
+    color: #F6F6F6;
+}
+
+#footer .flex h1 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+
+    /* identical to box height, or 100% */
+
+    color: #FFFFFF;
 
 }
